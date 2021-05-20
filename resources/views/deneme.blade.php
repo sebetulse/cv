@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="col"> 
-                <div class="card">
+                <div class="card border-primary">
                     <div class="card-header">
                         <h1>Mail <span class="badge badge-secondary">Yeni </span></h1>
                     </div>
