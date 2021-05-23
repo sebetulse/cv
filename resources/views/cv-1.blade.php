@@ -417,7 +417,7 @@
                     </div>
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-sm-4">
 
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
@@ -445,7 +445,7 @@
 
                                 </ul>
                             </div>
-                            <div class="col-8">
+                            <div class="col-sm-8">
                                 <div class="card mb-5 shadow-lg border-primary">
                                     <div class="card-header">
                                         <h4>Deneyimler</h4>
