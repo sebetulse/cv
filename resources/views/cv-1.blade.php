@@ -426,20 +426,20 @@
                                     <li class="list-group-item">
                                         <div style="float:left; display:inline-block; clear:both;">
                                             <i data-feather="home"></i></div>
-                                        <div style="float:left; display:inline-block; width: 90%;">
+                                        <div class="pl-2">
                                             Ergazi Mah. Şehit Soner Çankaya cad. Odak Sitesi 3.Blok Daire no:18
                                             Batıkent/Ankara</div>
                                     </li>
                                     <li class="list-group-item">
                                         <div style="float:left; display:inline-block; clear:both;">
                                             <i data-feather="phone-call"></i></div>
-                                        <div style="float:left; display:inline-block; width: 90%;">
+                                        <div class="pl-2">
                                             <a href="Tel:05079133113"> 0507 913 32 13 </a></div>
                                     </li>
                                     <li class="list-group-item">
                                         <div style="float:left; display:inline-block; clear:both;">
                                             <i data-feather="mail"></i></div>
-                                        <div style="float:left; display:inline-block; width: 90%;">
+                                        <div class="pl-2">
                                             <a href="mailto:se.betulgok@gmail.com"> se.betulgok@gmail.com </a></div>
                                     </li>
 
