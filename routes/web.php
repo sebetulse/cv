@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SkillController;
-
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,5 +18,17 @@ Route::get('/', function () {
     return view('deneme');
 });
 
+Route::get('/form', function () {
+    return view('form');
+});
+
 Route::get('/cv', [SkillController::class, 'home']
 );
+/*
+Route::resource('/product', ProductController::class
+);
+*/
+Route::get('/product',[ProductController::class, 'index']);
+Route::get('/product/create',[ProductController::class, 'create']);
+Route::post('/product/create',[ProductController::class, 'store']);
+Route::get('/product/{id}',[ProductController::class, 'show']);

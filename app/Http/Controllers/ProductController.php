@@ -2,12 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Skill;
+use App\Models\Product;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
 
-
-class SkillController extends Controller
+class ProductController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +14,9 @@ class SkillController extends Controller
      */
     public function index()
     {
-        //
+        $products=Product::all();
+        return view("product.index",compact("products"));
+
     }
 
     /**
@@ -37,27 +37,36 @@ class SkillController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $product = Product::create($request->all());
+        if($product != null)
+        { 
+            return response("created", 201);
+        }
+        else {
+            return response("error", 400);
+        }
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Skill  $skill
+     * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Skill $skill)
+    public function show(Product $product)
     {
-        //
+        $yorumlar=["beğenmedim.","bok gibi beğenmedim. fiyatı pahalı. ürün bozuk çıktı.","ben çok beğendim, üstüme tam oldu.","1 beden büyük alın"];
+        return view("product.show",compact("product","yorumlar"));
+
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Skill  $skill
+     * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function edit(Skill $skill)
+    public function edit(Product $product)
     {
         //
     }
@@ -66,10 +75,10 @@ class SkillController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Skill  $skill
+     * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Skill $skill)
+    public function update(Request $request, Product $product)
     {
         //
     }
@@ -77,20 +86,11 @@ class SkillController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Skill  $skill
+     * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Skill $skill)
+    public function destroy(Product $product)
     {
         //
-    }
-
-
-    public function home()
-    {
-        $response = Http::get('https://www.metaweather.com/api/location/2344116');
-        $weather = $response->collect();
-        $skills = Skill::all();
-        return view('cv-1',compact("skills","weather"));//compact viewa datayı iletiyor. 
     }
 }
