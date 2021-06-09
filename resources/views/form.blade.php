@@ -12,13 +12,11 @@
 </script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function(event) {c
-console.log('Gelddi');
-    let inputList= document.querySelectorAll('input');
-    for(var i=0; i<inputList.length; i++){
-        inputList[i].removeAttribute('autocomplete')
-    }
- });
+document.querySelector('form').setAttribute('autocomplete', 'off');
+let inputList= document.querySelectorAll('input');
+for(var i=0; i<inputList.length; i++){
+    inputList[i].removeAttribute('autocomplete')
+}
 </script>
 
 
