@@ -11,6 +11,17 @@
         })(window,document,'https://cdn.bitrix24.com/b17765935/crm/form/loader_6.js');
 </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    let inputList= document.querySelectorAll('input');
+    for(var i=0; i<inputList.length; i++){
+        inputList[i].removeAttribute('autocomplete')
+    }
+ });
+</script>
+
+
+
 
 @endsection
 
