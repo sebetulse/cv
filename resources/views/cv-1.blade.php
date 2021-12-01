@@ -467,6 +467,11 @@
                                     </div>
                                     <div class="card-body">
                                         <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                                <h5>Globalnet </h5>
+                                                <p><small>Mayıs 2021 – Ağustos 2021</small></p>
+                                                <p>Bitrix CRM Uygulaması, konfigürasyon, teknik destek ve müşteri talep çözüm desteği</p>
+                                            </li>
                                             <li class="list-group-item">
                                                 <h5>Bilgi İşlem Müdürlüğü, TRT Genel Müdürlüğü </h5>
                                                 <p><small>Temmuz 2014 – Ağustos 2014</small></p>
