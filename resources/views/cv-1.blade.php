@@ -445,7 +445,7 @@
                                     <li class="list-group-item">
                                         <div style="float:left; display:inline-block; clear:both;">
                                             <i data-feather="github"></i></div>
-                                        <div class="pl-2">
+                                        <div class="pl-2" >
                                             <a target="_blank" href="https://github.com/sebetulse"> https://github.com/sebetulse </a></div>
                                     </li>
 
@@ -476,7 +476,7 @@
                                         <li class="list-group-item">
                                                 <h5>Globalnet </h5>
                                                 <p><small>Mayıs 2021 – Ağustos 2021</small></p>
-                                                <p> CRM uygulaması geliştirme çalışmalarına yardım edilmesi,müşterilerin uygulama içindeki sorunları için teknik destek,müşteri taleplerine göre CRM otomasyonu konfigürasyonu</p>
+                                                <p> CRM uygulaması geliştirme çalışmalarına yardım edilmesi, müşterilerin uygulama içindeki sorunları için teknik destek, müşteri taleplerine göre CRM otomasyonu konfigürasyonu</p>
                                             </li>
                                             <li class="list-group-item">
                                                 <h5>Bilgi İşlem Müdürlüğü, TRT Genel Müdürlüğü </h5>
