@@ -549,7 +549,7 @@
                                     </div>
                                 </div>
 
-                                <div class="card mb-5 shadow-lg border-danger">
+                                <div class="card mb-5 shadow-lg border-warning">
                                     <div class="card-header">
                                         <h4>Referanslar</h4>
                                     </div>
