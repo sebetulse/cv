@@ -548,6 +548,30 @@
                                         </table>
                                     </div>
                                 </div>
+
+                                <div class="card mb-5 shadow-lg border-danger">
+                                    <div class="card-header">
+                                        <h4>Referanslar</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <table class="table table-striped">
+                                            <tr>
+                                                <td>Semih Puyan</td>
+                                                <td>(Ankara Bölge Müdürü, Hitachi Vantara)</td>
+                                                <td>0530 3869938</td>
+                                            </tr>
+                                            <tr><td>Hilal Karslıoğlu Özer</td>
+                                                <td>(Bilgisayar Mühendisi)</td>
+                                                <td>0535 2193147</td>
+                                            </tr>
+                                            <tr><td>Ali Elgin</td>
+                                                <td>(Yazılım Mühendisi, Digital Loop)</td>
+                                                <td>0533 8500034</td>
+                                            </tr>
+                                         
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
