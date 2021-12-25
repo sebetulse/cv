@@ -476,7 +476,7 @@
                                         <li class="list-group-item">
                                                 <h5>Globalnet </h5>
                                                 <p><small>Mayıs 2021 – Ağustos 2021</small></p>
-                                                <p>Bitrix CRM Uygulaması, konfigürasyon, teknik destek ve müşteri talep çözüm desteği</p>
+                                                <p> CRM uygulaması geliştirme çalışmalarına yardım edilmesi,müşterilerin uygulama içindeki sorunları için teknik destek,müşteri taleplerine göre CRM otomasyonu konfigürasyonu</p>
                                             </li>
                                             <li class="list-group-item">
                                                 <h5>Bilgi İşlem Müdürlüğü, TRT Genel Müdürlüğü </h5>
