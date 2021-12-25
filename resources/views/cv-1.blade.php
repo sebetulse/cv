@@ -442,6 +442,12 @@
                                         <div class="pl-2">
                                             <a href="mailto:se.betulgok@gmail.com"> se.betulgok@gmail.com </a></div>
                                     </li>
+                                    <li class="list-group-item">
+                                        <div style="float:left; display:inline-block; clear:both;">
+                                            <i data-feather="github"></i></div>
+                                        <div class="pl-2">
+                                            <a target="_blank" href="https://github.com/sebetulse"> https://github.com/sebetulse </a></div>
+                                    </li>
 
                                 </ul>
 
