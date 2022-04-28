@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Betül CV</title>
+    <title>Betül Gök CV</title>
     <script src="{{ asset('js/app.js') }}" defer></script>
 
 
@@ -557,7 +557,7 @@
                                         <table class="table table-striped">
                                             <tr>
                                                 <td>Semih Puyan</td>
-                                                <td>(Ankara Bölge Müdürü, Hitachi Vantara)</td>
+                                                <td>(Servis Satış Müdürü, Cisco)</td>
                                                 <td>0530 3869938</td>
                                             </tr>
                                             <tr><td>Hilal Karslıoğlu Özer</td>
