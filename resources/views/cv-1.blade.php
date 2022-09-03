@@ -427,7 +427,6 @@
                                         <div style="float:left; display:inline-block; clear:both;">
                                             <i data-feather="home"></i></div>
                                         <div class="pl-2">
-                                            Ergazi Mah. Şehit Soner Çankaya cad. Odak Sitesi 3.Blok Daire no:18
                                             Batıkent/Ankara</div>
                                     </li>
                                     <li class="list-group-item">
