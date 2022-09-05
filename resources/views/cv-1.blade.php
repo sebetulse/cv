@@ -449,7 +449,7 @@
                                     </li>
 
                                 </ul>
-
+                            @if(isset($weather["title"]))
                                 <div class="card">
                                     <div class="card-header text-center">
                                         <h4>{{$weather["title"]}} Hava Durumu</h4>
@@ -460,10 +460,10 @@
                                         <h3>{{ $weather["consolidated_weather"][0]["the_temp"]." °C" }}</h3>
                                     </div>
                                 </div>
-                                
+                             @endif   
                             
                                    
-                                
+                       
                             </div>
                             <div class="col-sm-8">
                                 <div class="card mb-5 shadow-lg border-primary">
